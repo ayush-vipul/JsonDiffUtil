@@ -27,20 +27,24 @@ JSON2 = {
   }
 }
 
-DiffResponse --------
-JsonDiff{
-			missingKeys:[Rating1], 
-			unexpectedKeys:[], 
-				matchingValues:
-                {
-                SecondaryRatings.Price:2,
-                SecondaryRatings.RatingDimension3:2
-                },
-				notMatchingValues:
-                {
-                SecondaryRatings.Design=(4, 1)
+Differences Found ----------------------
+                JsonDiff: {
+                  missingKeys: [
+                    Rating1
+                  ],
+                  unexpectedKeys: [
+
+                  ],
+                  matchingValues: {
+                    SecondaryRatings.Price: 2,
+                    SecondaryRatings.RatingDimension3: 2
+                  },
+                  notMatchingValues: {
+                    SecondaryRatings.Design=(4,
+                    1)
+                  }
                 }
-}
+                -------------------------------
 ```
 ## Author
 
@@ -48,14 +52,6 @@ JsonDiff{
 
 - Github: [@ayush-vipul](https://github.com/ayush-vipul)
   
-   
-   
-   
-
-
-
-
-
 
 ## 📝 License
 
