@@ -6,6 +6,8 @@
 Useful for :
   1. Json Keys Diff (Missing,Matching,Extra keys)
   2. Json value Diff (Not Matching and matching values
+  3. Also supports ignoring specific keys.
+
 
 Example : 
 ```java
